@@ -19,7 +19,9 @@
 }
 
 #fundo_1{
-        background: url(imagens/mauritania.png);
+         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagens/mauritania.png');
+  background-size: cover;
+  background-position: center;
         color: #ffffff;
         gap: 50px;
         display: flex;
